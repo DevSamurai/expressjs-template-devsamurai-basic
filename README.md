@@ -62,6 +62,13 @@ Painel de Administração:
 
 * Administração: http://localhost:8002
 
-## Comunidade
+## Dúvidas
 
-Se ficou com alguma dúvida participe da nossa comunidade Samurai no Discord acesse https://lp.devsamurai.com.br/discord
+Se você curtiu esse projeto ou está com dúvidas acesse:
+
+* O Guia com todo o passo a passo explicativo em https://guia.devsamurai.com.br
+* Nossa comunidade Samurai no Discord acesse https://lp.devsamurai.com.br/discord
+
+## Licença
+
+MIT
