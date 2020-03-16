@@ -16,6 +16,7 @@ Template para projetos básicos em NodeJS + Sequelize.
 $ git clone git@github.com:DevSamurai/nodejs-template-devsamurai-basic.git [ProjectName]
 $ cd [ProjectName]
 $ node ./setup.js
+$ yarn dev
 ```
 
 ### Executando o Docker via Compose
