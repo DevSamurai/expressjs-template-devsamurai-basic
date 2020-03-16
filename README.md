@@ -16,6 +16,7 @@ Template para projetos básicos em NodeJS + Sequelize.
 $ git clone git@github.com:DevSamurai/nodejs-template-devsamurai-sequelize-basic.git [ProjectName]
 $ cd [ProjectName]
 $ node ./setup.js
+$ yarn
 $ yarn dev
 ```
 
