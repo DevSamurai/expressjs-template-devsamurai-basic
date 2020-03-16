@@ -8,11 +8,18 @@ const deleteFile = filename => {
     return fs.unlinkSync(path.join(__dirname, filename));
   } catch (error) {}
 };
-
-const deleteFolder = path => {
-  try {
-    return fs.rmdirSync(path.join(__dirname, path));
-  } catch (error) {}
+const deleteFolder = folder => {
+  if (fs.existsSync(folder)) {
+    fs.readdirSync(folder).forEach((file, index) => {
+      const curFolder = path.join(folder, file);
+      if (fs.lstatSync(curFolder).isDirectory()) {
+        deleteFolder(curFolder);
+      } else {
+        fs.unlinkSync(curFolder);
+      }
+    });
+    fs.rmdirSync(folder);
+  }
 };
 
 console.log(EMPTY_LINE);
