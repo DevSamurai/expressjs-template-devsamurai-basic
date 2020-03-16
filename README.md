@@ -1,6 +1,6 @@
-# Template básico NodeJS
+# Template básico NodeJS + Sequelize
 
-Template para projetos básicos em NodeJS (Express).
+Template para projetos básicos em NodeJS + Sequelize.
 
 ## Requisitos
 
@@ -13,10 +13,9 @@ Template para projetos básicos em NodeJS (Express).
 1. Clonar o repositório:
 
 ```sh
-$ git clone git@github.com:DevSamurai/nodejs-template-devsamurai-basic.git
-$ mv nodejs-template-devsamurai-basic [ProjectName]
+$ git clone git@github.com:DevSamurai/nodejs-template-devsamurai-basic.git [ProjectName]
 $ cd [ProjectName]
-$ node setup.js
+$ node ./setup.js
 ```
 
 ### Executando o Docker via Compose
